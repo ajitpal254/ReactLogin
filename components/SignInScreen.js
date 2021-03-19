@@ -12,7 +12,7 @@ const SignInScreen = ({navigation}) =>{
     const signin = async()=>{
         try{
             const response = await firebase.auth().signInWithEmailAndPassword(email, password);
-            navigation.navigate('Home');
+            navigation.navigate('Product');
         }
         catch (err) {
             setError(err.message);

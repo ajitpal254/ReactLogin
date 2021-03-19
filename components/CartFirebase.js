@@ -15,8 +15,8 @@ const firebaseConfig = {
     measurementId: "G-J4LVJ3NJSR"
 };
 
-const app = cartFirebase.initializeApp(firebaseConfig);
-export const db = app.database();
+// const app =  cartFirebase.initializeApp(firebaseConfig);
+// export const db = app.database();
 
 
 
