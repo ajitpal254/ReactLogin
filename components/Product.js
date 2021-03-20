@@ -3,7 +3,9 @@ import { FlatList } from 'react-native';
 import {View,Text,Image,Button} from "react-native";
 import { TouchableOpacity } from 'react-native-gesture-handler';
 import cartFirebase from './CartFirebase';
-import * as firebase from 'firebase';
+import firebase from 'firebase';
+// Required for firebase side effects
+require('firebase/firestore');
 
 
 const ProductScreen = ({navigation}) =>{

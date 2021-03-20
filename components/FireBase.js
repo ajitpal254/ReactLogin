@@ -1,4 +1,6 @@
-import * as firebase from 'firebase';
+import firebase from 'firebase';
+// Required for firebase side effects
+require('firebase/firestore');
 import auth from '@react-native-firebase/auth';
 
 // const firebaseConfig = {
@@ -28,4 +30,4 @@ else {
  }
 
 
-export default firebase;
+export default firebaseConfig;
